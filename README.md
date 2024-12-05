@@ -30,3 +30,194 @@ https://www.figma.com/design/DktyQ8aaAEDCslmlgFMG2i/Untitled?node-id=0-1&node-ty
 8. Бюджет:
       -Бюджет на разработку: 10 миллионов рублей
 9. Контактная информация: kzrxxt@yandex.ru; +7(952)-053-38-93
+
+Код для первой страницы, сделал только 1 правда, также изображение не полное, так как оно на широкое я взял основную часть, но все детали как первая страница в проекте:
+
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Be+Vietnam+Pro%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Galileo Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-white justify-between group/design-root overflow-x-hidden"
+      style='font-family: "Be Vietnam Pro", "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-white p-4 pb-2 justify-between">
+          <h2 class="text-[#181411] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12">McDonald's</h2>
+          <div class="flex w-12 items-center justify-end">
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 bg-transparent text-[#181411] gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0"
+            >
+              <div class="text-[#181411]" data-icon="ShoppingCart" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="pb-3">
+          <div class="flex border-b border-[#e6e0db] px-4 gap-8">
+            <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#181411] text-[#181411] pb-[13px] pt-4" href="#">
+              <p class="text-[#181411] text-sm font-bold leading-normal tracking-[0.015em]">Deals</p>
+            </a>
+            <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#8a7360] pb-[13px] pt-4" href="#">
+              <p class="text-[#8a7360] text-sm font-bold leading-normal tracking-[0.015em]">Menu</p>
+            </a>
+            <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#8a7360] pb-[13px] pt-4" href="#">
+              <p class="text-[#8a7360] text-sm font-bold leading-normal tracking-[0.015em]">Stores</p>
+            </a>
+            <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#8a7360] pb-[13px] pt-4" href="#">
+              <p class="text-[#8a7360] text-sm font-bold leading-normal tracking-[0.015em]">Offers</p>
+            </a>
+          </div>
+        </div>
+        <h2 class="text-[#181411] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Get $1 Large Fries</h2>
+        <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+          <div class="flex items-stretch p-4 gap-3">
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
+                style='background-image: url("https://cdn.usegalileo.ai/stability/ff090ebc-e9c4-4f94-90f6-5b586442cddd.png");'
+              ></div>
+              <p class="text-[#181411] text-base font-medium leading-normal">Enjoy the World Famous Fries</p>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
+                style='background-image: url("https://cdn.usegalileo.ai/stability/5effc362-c058-4ade-a2a1-ab0ad67c19fa.png");'
+              ></div>
+              <p class="text-[#181411] text-base font-medium leading-normal">Served hot and crispy every time</p>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
+                style='background-image: url("https://cdn.usegalileo.ai/stability/02ede2e7-a7ad-49fa-9cac-e6c1a0bfa2b7.png");'
+              ></div>
+              <p class="text-[#181411] text-base font-medium leading-normal">Order now to get your large fries for just $1</p>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-[#181411] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Popular Items</h2>
+        <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+          <div class="flex items-stretch p-4 gap-3">
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
+                style='background-image: url("https://cdn.usegalileo.ai/stability/bbd73c24-d47a-4944-abfb-903e02e5e589.png");'
+              ></div>
+              <div>
+                <p class="text-[#181411] text-base font-medium leading-normal">Big Mac</p>
+                <p class="text-[#8a7360] text-sm font-normal leading-normal">$5.99</p>
+              </div>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
+                style='background-image: url("https://cdn.usegalileo.ai/stability/c5acb6c4-962b-44c0-996a-e15c270550e5.png");'
+              ></div>
+              <div>
+                <p class="text-[#181411] text-base font-medium leading-normal">Chicken McNuggets</p>
+                <p class="text-[#8a7360] text-sm font-normal leading-normal">$8.99</p>
+              </div>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
+                style='background-image: url("https://cdn.usegalileo.ai/stability/f5277f45-1bbb-4578-ba9f-949c8aaf8223.png");'
+              ></div>
+              <div>
+                <p class="text-[#181411] text-base font-medium leading-normal">Cheeseburger</p>
+                <p class="text-[#8a7360] text-sm font-normal leading-normal">$2.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="flex px-4 py-3">
+          <button
+            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-5 flex-1 bg-[#f48225] text-[#181411] gap-2 pl-5 text-base font-bold leading-normal tracking-[0.015em]"
+          >
+            <div class="text-[#181411]" data-icon="ShoppingCart" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z"
+                ></path>
+              </svg>
+            </div>
+            <span class="truncate">View Cart (3)</span>
+          </button>
+        </div>
+        <div class="flex gap-2 border-t border-[#f5f2f0] bg-white px-4 pb-3 pt-2">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-[#181411]" href="#">
+            <div class="text-[#181411] flex h-8 items-center justify-center" data-icon="House" data-size="24px" data-weight="fill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M224,115.55V208a16,16,0,0,1-16,16H168a16,16,0,0,1-16-16V168a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v40a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V115.55a16,16,0,0,1,5.17-11.78l80-75.48.11-.11a16,16,0,0,1,21.53,0,1.14,1.14,0,0,0,.11.11l80,75.48A16,16,0,0,1,224,115.55Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#181411] text-xs font-medium leading-normal tracking-[0.015em]">Home</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#8a7360]" href="#">
+            <div class="text-[#8a7360] flex h-8 items-center justify-center" data-icon="PersonSimpleWalk" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M152,80a32,32,0,1,0-32-32A32,32,0,0,0,152,80Zm0-48a16,16,0,1,1-16,16A16,16,0,0,1,152,32Zm64,112a8,8,0,0,1-8,8c-35.31,0-52.95-17.81-67.12-32.12-2.74-2.77-5.36-5.4-8-7.84l-13.43,30.88,37.2,26.57A8,8,0,0,1,160,176v56a8,8,0,0,1-16,0V180.12l-31.07-22.2L79.34,235.19A8,8,0,0,1,72,240a7.84,7.84,0,0,1-3.19-.67,8,8,0,0,1-4.15-10.52l54.08-124.37c-9.31-1.65-20.92,1.2-34.7,8.58a163.88,163.88,0,0,0-30.57,21.77,8,8,0,0,1-10.95-11.66c2.5-2.35,61.69-57.23,98.72-25.08,3.83,3.32,7.48,7,11,10.57C166.19,122.7,179.36,136,208,136A8,8,0,0,1,216,144Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#8a7360] text-xs font-medium leading-normal tracking-[0.015em]">Pickup</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#8a7360]" href="#">
+            <div class="text-[#8a7360] flex h-8 items-center justify-center" data-icon="MagnifyingGlass" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+              </svg>
+            </div>
+            <p class="text-[#8a7360] text-xs font-medium leading-normal tracking-[0.015em]">Search</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#8a7360]" href="#">
+            <div class="text-[#8a7360] flex h-8 items-center justify-center" data-icon="Receipt" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M72,104a8,8,0,0,1,8-8h96a8,8,0,0,1,0,16H80A8,8,0,0,1,72,104Zm8,40h96a8,8,0,0,0,0-16H80a8,8,0,0,0,0,16ZM232,56V208a8,8,0,0,1-11.58,7.15L192,200.94l-28.42,14.21a8,8,0,0,1-7.16,0L128,200.94,99.58,215.15a8,8,0,0,1-7.16,0L64,200.94,35.58,215.15A8,8,0,0,1,24,208V56A16,16,0,0,1,40,40H216A16,16,0,0,1,232,56Zm-16,0H40V195.06l20.42-10.22a8,8,0,0,1,7.16,0L96,199.06l28.42-14.22a8,8,0,0,1,7.16,0L160,199.06l28.42-14.22a8,8,0,0,1,7.16,0L216,195.06Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#8a7360] text-xs font-medium leading-normal tracking-[0.015em]">Orders</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#8a7360]" href="#">
+            <div class="text-[#8a7360] flex h-8 items-center justify-center" data-icon="UserCircle" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM74.08,197.5a64,64,0,0,1,107.84,0,87.83,87.83,0,0,1-107.84,0ZM96,120a32,32,0,1,1,32,32A32,32,0,0,1,96,120Zm97.76,66.41a79.66,79.66,0,0,0-36.06-28.75,48,48,0,1,0-59.4,0,79.66,79.66,0,0,0-36.06,28.75,88,88,0,1,1,131.52,0Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#8a7360] text-xs font-medium leading-normal tracking-[0.015em]">Account</p>
+          </a>
+        </div>
+        <div class="h-5 bg-white"></div>
+      </div>
+    </div>
+  </body>
+</html>
+
+![image](https://github.com/user-attachments/assets/48860023-6b24-46d8-9c77-860c9400d640)
+
